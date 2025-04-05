@@ -28,3 +28,18 @@
 [data-panel-toolbar="true"] {
   -webkit-app-region: drag !important;
 }
+
+/* REPOSITION THE APP TO TAKE UP ALL THE SPACE */
+[data-role="layout-and-docks"] {
+  height: calc(
+    100vh - var(--dockAreaDividerSize) - var(--panelsLayoutInset) * 2 -
+      var(--globalMessageHeight)
+  ) !important;
+}
+
+/* MAKE SPECIFIC ELEMENTS IN THE DRAGGABLE AREA NON-DRAGGABLE (via @READY) */
+[data-panel-toolbar="true"] button,
+[data-panel-toolbar="true"] input,
+[data-panel-toolbar="true"] [role="button"] {
+  -webkit-app-region: no-drag !important;
+}
