@@ -1,0 +1,19 @@
+/* Emojis from TossFaceFont */
+
+    html { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", "TossFaceFontMac", "Helvetica Neue", sans-serif !important;}}
+
+
+
+/* Remove bottom node padding */
+
+[class*="OutlinerItem-module_children"] {padding-bottom: 0rem}
+    /* default = 0.75rem */
+
+.html {    --listItemVerticalSpacing: .25rem;
+    /* default = .25rem */
+}
+
+
+/* Narrow fields */
+
+.tuple-module_tupleLabel__efO5Z.tuple-module_isListView__GWZ-R {    width: 6rem;}
