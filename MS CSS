@@ -17,3 +17,14 @@
 /* Narrow fields */
 
 .tuple-module_tupleLabel__efO5Z.tuple-module_isListView__GWZ-R {    width: 6rem;}
+
+
+/* REMOVE THE GAP AT THE TOP OF THE APP THAT'S DESIGNED FOR THE TITLE BAR */
+[class*="ElectronTitleBar-module_titlebar"] {
+  display: none !important;
+}
+
+/* MAKE THE TOP NAV BAR DRAGGABLE (via @READY) */
+[data-panel-toolbar="true"] {
+  -webkit-app-region: drag !important;
+}
