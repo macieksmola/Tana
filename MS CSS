@@ -1,8 +1,8 @@
 /* Emojis from TossFaceFont */
 
-    html { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", "TossFaceFontMac", "Helvetica Neue", sans-serif !important;}}
-
-
+    html { 
+font-family: "Inter", -apple-system, "TossFaceFontMac", BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif !important
+}
 
 /* Remove bottom node padding */
 [class*="OutlinerItem-module_children"] {padding-bottom: 0rem} 
